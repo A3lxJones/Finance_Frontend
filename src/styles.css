@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added here */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add smooth transitions */
+.transition-shadow {
+    transition: box-shadow 0.3s ease-in-out;
+}
